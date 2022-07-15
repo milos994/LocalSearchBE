@@ -1,0 +1,29 @@
+{
+  "name": "localsearchbe",
+  "version": "1.0.0",
+  "description": "Backend code for localsearch challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milos994/LocalSearchBE.git"
+  },
+  "author": "Milos Nesovanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milos994/LocalSearchBE/issues"
+  },
+  "homepage": "https://github.com/milos994/LocalSearchBE#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "config": "^3.3.7",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0"
+  }
+}
