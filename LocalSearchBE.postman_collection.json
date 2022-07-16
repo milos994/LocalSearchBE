@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "86591af8-3902-48d0-9224-f21a0ee74915",
+		"name": "LocalSearchBE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1352584"
+	},
+	"item": [
+		{
+			"name": "Business Entries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/business-entries",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"business-entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search Business Entries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/search?term=le",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "le"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
