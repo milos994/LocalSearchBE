@@ -47,7 +47,7 @@ GET /business-entries
 
 ```json
 [
-{
+    {
         "displayWhat": "Casa Ferlin",
         "displayWhere": "Stampfenbachstrasse 38, 8006 Zürich",
         "openingHours": {
