@@ -44,8 +44,6 @@ describe('Unit tests for business entry functions', () => {
             expect(businessEntries[0].websites.length).to.equal(1);
             expect(businessEntries[0].websites[0]).to.be.equal(mockedResponse.addresses[0].contacts[0].service_code);
         });
-
-        // TODO: Add negative tests
     });
 
     context('Function findByNameOrAddress', () => {
@@ -88,7 +86,5 @@ describe('Unit tests for business entry functions', () => {
             const searchResponse = await BusinessEntryService.findByNameOrAddress('Milos');
             expect(searchResponse.length).to.equal(0);
         });
-
-         // TODO: Add negative tests
     });
 })
