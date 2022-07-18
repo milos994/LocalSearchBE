@@ -6,8 +6,8 @@ An application used by LocalSearch engineers to check my knowledge while searchi
 
 ## Features
 
-* Get all available buisness entries
-* Search buisness entries by specific term
+* Get all available business entries
+* Search business entries by specific term
 
 ---
 
